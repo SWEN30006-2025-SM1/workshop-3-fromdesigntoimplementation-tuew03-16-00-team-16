@@ -1,6 +1,6 @@
 package com.unimelb.swen30006.workshops;
 
-public class Student {
+public class Student extends Person {
     private Integer StudentID;
     private String Name;
     private String Username;
@@ -35,4 +35,6 @@ public class Student {
     public Integer getTotalMarks() {
         return TotalMarks;
     }
+
+    public void sendEmailMsg(String msg) {}
 }
